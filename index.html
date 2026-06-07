@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Word Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Word Guessing Game</h1>
+
+  <select id="category">
+    <option>fruits</option>
+    <option>food</option>
+    <option>animals</option>
+    <option>objects</option>
+    <option>cities</option>
+    <option>countries</option>
+  </select>
+
+  <button onclick="startGame()">Start Game</button>
+
+  <p id="currentCategory"></p>
+
+  <input id="guess" maxlength="5" placeholder="Enter 5-letter word">
+  <button onclick="makeGuess()">Guess</button>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
