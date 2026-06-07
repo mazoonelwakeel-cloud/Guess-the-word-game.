@@ -1,5 +1,5 @@
 # Guess-the-word-game.
-# Word Guessing Game
+A word guessing game
 
 ## About the Project
 
